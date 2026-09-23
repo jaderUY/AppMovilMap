@@ -123,7 +123,7 @@ Distancia: ${distanciaTexto}`);
       }
 
       this.rutaActual = L.polyline(coordenadas, {
-        color: '#3388ff',
+        color: '#c9042f',
         weight: 5,
         opacity: 0.8
       }).addTo(this.map);
