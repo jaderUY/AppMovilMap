@@ -35,7 +35,7 @@
               {
                 "glob": "**/*",
                 "input": "node_modules/leaflet/dist/images",
-                "output": "assets/leaflet/images"
+                "output": "assets"
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss", "node_modules/leaflet/dist/leaflet.css"],
