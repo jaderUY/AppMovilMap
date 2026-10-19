@@ -22,6 +22,7 @@
               "base": "www",
               "browser": ""
             },
+            "allowedCommonJsDependencies": ["leaflet"],
             "index": "src/index.html",
             "polyfills": [],
             "tsConfig": "tsconfig.app.json",
@@ -84,9 +85,6 @@
             },
             "development": {
               "buildTarget": "app:build:development"
-            },
-            "ci": {
-              "progress": false
             }
           },
           "defaultConfiguration": "development"

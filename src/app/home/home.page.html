@@ -1,12 +1,15 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>AppMovilMap</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div id="map" style="width: 100%;height: 100%;"></div>
-  <ion-button (click)="Punto()">Localizar</ion-button>
+  <div id="map" class="map-container"></div>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button (click)="localizar()" aria-label="Centrar en mi ubicación">
+      <ion-icon name="locate-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>
