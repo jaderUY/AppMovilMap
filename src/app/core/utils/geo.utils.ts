@@ -1,4 +1,4 @@
-import { Coordenada } from '../models/punto-interes.model.ts';
+import { Coordenada } from '../models/punto-interes.model.js';
 
 /** Distancia haversine en metros entre dos coordenadas. */
 export function calcularDistanciaMetros(a: Coordenada, b: Coordenada): number {

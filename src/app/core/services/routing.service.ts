@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as L from 'leaflet';
-import { Coordenada } from '../models/punto-interes.model.ts';
+import { Coordenada } from '../models/punto-interes.model.js';
 
 @Injectable({ providedIn: 'root' })
 export class RoutingService {

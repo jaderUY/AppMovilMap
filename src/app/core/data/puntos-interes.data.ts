@@ -1,4 +1,4 @@
-import { PuntoInteres } from '../models/punto-interes.model.ts';
+import { PuntoInteres } from '../models/punto-interes.model.js';
 
 // NOTA: las fotos son placeholders (picsum). Reemplaza `foto` por
 // `assets/puntos/<id>.jpg` cuando tengas las imágenes reales del sitio.

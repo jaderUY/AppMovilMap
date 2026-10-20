@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import * as L from 'leaflet';
-import { Coordenada, PuntoInteres, TipoPunto } from '../models/punto-interes.model.ts';
-import { formatearDistancia } from '../utils/geo.utils.ts';
+import { Coordenada, PuntoInteres, TipoPunto } from '../models/punto-interes.model.js';
+import { formatearDistancia } from '../utils/geo.utils.js';
 
 @Injectable({ providedIn: 'root' })
 export class MapService {
